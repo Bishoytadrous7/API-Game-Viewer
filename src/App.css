@@ -1,0 +1,57 @@
+
+.app {
+  width: 500%;
+  max-width: 1300px;
+  text-align: center;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.clickable {
+  color: #40acdf;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.banned-item {
+  display: inline-block;
+  margin: 0.5rem;
+  background-color: #ff5555;
+  padding: 0.4rem 0.8rem;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.history-section {
+  margin-top: 1rem;
+  padding: 1rem;
+  background-color: #1e1e1e;
+  border-radius: 5px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.history-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 4rem;
+  justify-items: center;
+}
+
+.history-item {
+  background-color: #2a2a2a;
+  padding: 1rem;
+  border-radius: 10px;
+  text-align: center;
+  width: 100%;
+  max-width: 300px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.history-item img {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  border-radius: 5px;
+  margin-bottom: 0.5rem;
+}
+
